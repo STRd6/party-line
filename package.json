@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "Blast data to your homies",
   "devDependencies": {
-    "coffee-script": "~1.6.3",
     "uglify-js": "~2.3.6"
   },
   "dependencies": {
+    "coffee-script": "~1.6.3",
     "ws": "~0.4.31"
   },
   "engines": {
