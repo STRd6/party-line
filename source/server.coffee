@@ -1,6 +1,6 @@
 WebSocketServer = require('ws').Server
 
-wss = new WebSocketServer({port: 8080})
+wss = new WebSocketServer({port: process.env.PORT})
 
 wss.on 'connection', (ws) ->
   ws.on 'message', (message) ->
