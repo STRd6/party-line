@@ -10,7 +10,7 @@
     "ws": "~0.4.31"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.10.15"
   },
   "repository": {
     "type": "git",
